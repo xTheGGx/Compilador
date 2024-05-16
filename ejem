@@ -1,0 +1,38 @@
+[
+    ent func_uno(ent xx, real num){
+   	 real opera -> 12.45;
+   	 opera -> xx - num;
+    }
+    ent func_dos(simb carac, ent mi_num){
+   	 ent val->2, num_uno->34;
+   	 large ent dato->878779;
+   	 real x_dos->56.77;
+   	 simb car->'a', car_b->'b';
+   	 num_uno -> val+(15*(12-val));
+   	 char -> 'm';
+   	 x_dos -> 27.9;
+   	 si(x_dos >= 31.3)
+   		 si(val<45)
+   			 val -> val - 1;
+   			 num_uno -> num_uno*(((27/3)*(43+dato))/dato);
+   			 car_b->'B';
+   		 finsi
+   	 
+   	 sino
+   		 mientras(x_dos<1000){
+   			 para(dato->1;dato<x_dos;dato->dato+1){
+   				 haz{
+   					 "Hola amiguito";
+   					 val -> val + 1;
+   				 }mientras(val<=10);
+   			 }
+   		 }
+   	 finsi
+   	 
+   	 [func_uno(val, 12)]
+   	 regresa(x_dos);
+   	 regresa(12);
+   	 regresa();
+    }
+    
+]
